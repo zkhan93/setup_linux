@@ -48,3 +48,6 @@ bash ./apps/teamviewer.sh
 # VNC Viewer
 bash ./apps/vnc.sh
 
+# node and npm
+bash ./apps/node.sh
+

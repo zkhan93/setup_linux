@@ -1,8 +1,9 @@
 #/bin/bash
 
-# install android studio
-
-# set up env in .profiles
+# TODO
+# install android studio and add platform tools to the path in ~/.profile
+# install conky 
+# install aria2 download manager
 
 #install required packages
 sudo apt-get install -y git wget libminizip1 libxcb-xinerama0
@@ -18,8 +19,6 @@ sudo apt install inkscape
 
 # install snap application
 snap install vlc gimp
-
-
 
 # baleno etcher this way or just install appimage
 bash ./apps/etcher.sh

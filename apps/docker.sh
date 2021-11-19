@@ -18,8 +18,13 @@ echo \
 
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
+
+# test docker with sudo
+sudo docker run hello-world
+
+# add current user in docker group
+# you have to log out and log in back to check this
 sudo usermod -aG docker $USER
-docker run hello-world
 
 # install docker-compose
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose

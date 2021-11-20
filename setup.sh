@@ -7,6 +7,7 @@
 
 # generate ssh key
 ssh-keygen -t ed25519
+
 # set read and execute permissions to everyone in /opt
 sudo chmod 755 /opt
 

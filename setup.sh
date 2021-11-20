@@ -1,10 +1,17 @@
 #/bin/bash
 
 # TODO
-# generate ssh key
+
 # install android studio and add platform tools to the path in ~/.profile
-# install conky 
 # install aria2 download manager
+
+# generate ssh key
+ssh-keygen -t ed25519
+# set read and execute permissions to everyone in /opt
+sudo chmod 755 /opt
+
+# install conky & its script
+./app/conky.sh
 
 #install required packages
 sudo apt-get install -y git wget libminizip1 libxcb-xinerama0

@@ -1,13 +1,13 @@
 #/bin/bash
 
 # TODO
+# generate ssh key
 # install android studio and add platform tools to the path in ~/.profile
 # install conky 
 # install aria2 download manager
 
 #install required packages
 sudo apt-get install -y git wget libminizip1 libxcb-xinerama0
-
 
 #install docker and docker-compose
 bash ./apps/docker.sh
@@ -45,8 +45,10 @@ bash ./apps/steam.sh
 bash ./apps/teamviewer.sh
 
 # VNC Viewer
-bash ./apps/vnc.sh
+bash ./apps/vncviewer.sh
+
+# VNC Server
+bash ./apps/vncserver.sh
 
 # node and npm
 bash ./apps/node.sh
-
